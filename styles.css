@@ -1,0 +1,523 @@
+body {
+    background-image: linear-gradient(#0008F8, #000000);
+    margin: 0 auto;
+    max-width: 1150px;
+    width: 95%;
+ }
+
+#navbar {
+display: flex;
+}
+
+header{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+header div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#navbar-fondo {
+    width: 100%;
+    margin-inline: auto;
+    background: white;
+    border-radius: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+@media (max-width:990px) {
+    #navbar-fondo{
+        justify-content: center;
+    }
+
+    .botones{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+}
+
+#navbar-nombre {
+    width: 130px;
+    height: 58px;
+    left: 127px;
+    top: 25px;
+    text-align: center;
+    align-content: center;
+    color: black;
+    font-size: 24px;
+    font-family: "Sansita One";
+    font-weight: 600;
+    word-wrap: break-word"
+
+}
+
+#navbar-logo-imagen {
+    width: 66px;
+    height: 61px;
+    left: 28px;
+    top: 24px;
+}
+
+.botones li, a{
+    width: 138px;
+    height: 58px;
+    top: 25px;
+    color: black;
+    font-size: 20px;
+    font-family: Lato;
+    font-weight: 400;
+    text-decoration: none;
+    display: inline;
+    margin-right: 20px;
+}
+
+#about-us1{
+    width: 1150px; 
+    height: 300px; 
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#mision1{
+    width: 50%; 
+    top: 100px; 
+    text-align: center; 
+    color: white; 
+    font-size: 36px; 
+    font-family: Noto Serif Tamil Slanted; 
+    font-weight: 600; 
+    word-wrap: break-word"
+}
+
+#mision2{
+    width: 50%;
+    top: 100px; 
+    text-align: center; 
+    color: #00BBE4; 
+    font-size: 28px; 
+    font-family: Noto Serif Tamil; 
+    font-weight: 600; 
+    word-wrap: break-word"
+}
+
+.borde{
+    width: 1150px;
+    border: 2px white solid;
+    margin-inline: auto;
+}
+
+#about-us2{
+    width: 1150px; 
+    margin-inline: auto;
+    height: 400px; 
+    position: relative
+}
+
+#titulo-imagenes{
+    color: white; 
+    font-size: 36px; 
+    font-family: Noto Serif Tamil;
+    font-weight: 800; 
+    word-wrap: break-word;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.img-juegos{
+    width: 380px; 
+    margin-top: 50px;
+    border-radius: 20px
+}
+
+#about-us3{
+    width: 1150px; 
+    margin-inline: auto;
+    height: 300px; 
+    position: relative
+}
+
+#vision-titulo{
+    width: 1150px; 
+    margin-top: 30px;
+    text-align: center; 
+    color: white; 
+    font-size: 36px; 
+    font-family: Noto Serif Tamil; 
+    font-weight: 800; 
+    word-wrap: break-word
+}
+
+#vision-texto{
+    width: 1150px; 
+    margin-top: 150px;
+    text-align: center; 
+    color: #00BBE4; 
+    font-size: 28px; 
+    font-family: Noto Serif Tamil; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+
+#pilares{
+    width: 1150px; 
+    margin-inline: auto;
+    position: relative
+}
+
+#pilares-titulo-general{
+    margin-top: 30px;
+    text-align: center; 
+    color: white; 
+    font-size: 36px; 
+    font-family: Noto Serif Tamil; 
+    font-weight: 800; 
+    word-wrap: break-word
+}
+
+#pilar-excelencia{
+    width: 100%; 
+    height: 100%; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    display: inline-flex
+}
+
+#titulo-pilares{
+    width: 288px; 
+    margin-top: 30px;
+    text-align: center; 
+    color: #00BBE4; 
+    font-size: 36px; 
+    font-family: Noto Serif Tamil; 
+    font-weight: 600; 
+    letter-spacing: 3.60px; 
+}
+
+.img-pilar{
+    width: 140px; 
+    height: 140px
+}
+
+.pilar-desc{
+    width: 288px; 
+    height: 241px; 
+    text-align: center; 
+    color: #00BBE4; 
+    font-size: 28px; 
+    font-family: Noto Serif Tamil; 
+    font-weight: 500; 
+    word-wrap: break-word
+}
+
+#paquetes{
+    width: 1150px; 
+    margin-inline: auto;
+}
+
+#titulo-servicios{
+    width: 1150px; 
+    margin-top: 30px;
+    text-align: center; 
+    color: white; 
+    font-size: 36px; 
+    font-family: Noto Serif Tamil; 
+    font-weight: 800; 
+    word-wrap: break-word
+}
+
+.paquete{
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    display: inline-flex
+}
+
+.icono-paquete{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 140px;
+    align-items: center;
+    width: 85px; 
+    height: 77px
+}
+
+footer{
+    margin-top: 15px;
+    position: relative;
+    margin-inline: auto;
+    bottom: 0;
+    width: 1150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.direccion-footer{
+    width: 384px;   
+    text-align: center; 
+    color: white; 
+    font-size: 20px; 
+    font-family: Noto Serif Tamil Slanted; 
+    font-weight: 800; 
+    word-wrap: break-word
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-image: linear-gradient(#0008F8, #000000);
+        margin: 0 auto;
+        max-width: 550px;
+        width: 95%;
+     }
+    
+    #navbar {
+        width: 95%;
+        height: 48px;
+        position: relative;
+        margin-inline: auto;
+    }
+    
+    #navbar-nombre {
+        width: 130px;
+        height: 58px;
+        left: 127px;
+        top: 25px;
+        text-align: center;
+        align-content: center;
+        color: black;
+        font-size: 24px;
+        font-family: "Sansita One";
+        font-weight: 600;
+        word-wrap: break-word"
+    
+    }
+    
+    #navbar-logo-imagen {
+        width: 66px;
+        height: 61px;
+        left: 28px;
+        top: 24px;
+    }
+    
+    .botones li, a{
+        width: 138px;
+        height: 58px;
+        top: 25px;
+        color: black;
+        font-size: 20px;
+        font-family: Lato;
+        font-weight: 400;
+        text-decoration: none;
+        display: inline;
+        margin-right: 20px;
+    }
+    
+    #about-us1{
+        width: 1150px; 
+        height: 300px; 
+        position: relative;
+        margin-inline: auto;
+        display: flex;
+    }
+
+    section{
+        border: 1px solid red;
+    }
+    
+    #mision1{
+        width: 519px; 
+        top: 100px; 
+        text-align: center; 
+        color: white; 
+        font-size: 36px; 
+        font-family: Noto Serif Tamil Slanted; 
+        font-weight: 600; 
+        word-wrap: break-word"
+    }
+    
+    #mision2{
+        left: 575px; 
+        top: 100px; 
+        text-align: center; 
+        color: #00BBE4; 
+        font-size: 28px; 
+        font-family: Noto Serif Tamil; 
+        font-weight: 600; 
+        word-wrap: break-word"
+    }
+    
+    .borde{
+        width: 1150px;
+        border: 2px white solid;
+        margin-inline: auto;
+    }
+    
+    #about-us2{
+        width: 1150px; 
+        margin-inline: auto;
+        height: 400px; 
+        position: relative
+    }
+    
+    #titulo-imagenes{
+        color: white; 
+        font-size: 36px; 
+        font-family: Noto Serif Tamil;
+        font-weight: 800; 
+        word-wrap: break-word;
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    .img-juegos{
+        width: 380px; 
+        margin-top: 50px;
+        border-radius: 20px
+    }
+    
+    #about-us3{
+        width: 1150px; 
+        margin-inline: auto;
+        height: 300px; 
+        position: relative
+    }
+    
+    #vision-titulo{
+        width: 1150px; 
+        position: absolute; 
+        margin-top: 30px;
+        text-align: center; 
+        color: white; 
+        font-size: 36px; 
+        font-family: Noto Serif Tamil; 
+        font-weight: 800; 
+        word-wrap: break-word
+    }
+    
+    #vision-texto{
+        width: 1150px; 
+        position: absolute; 
+        margin-top: 150px;
+        text-align: center; 
+        color: #00BBE4; 
+        font-size: 28px; 
+        font-family: Noto Serif Tamil; 
+        font-weight: 600; 
+        word-wrap: break-word
+    }
+    
+    #pilares{
+        width: 1150px; 
+        margin-inline: auto;
+        position: relative
+    }
+    
+    #pilares-titulo-general{
+        margin-top: 30px;
+        text-align: center; 
+        color: white; 
+        font-size: 36px; 
+        font-family: Noto Serif Tamil; 
+        font-weight: 800; 
+        word-wrap: break-word
+    }
+    
+    #pilar-excelencia{
+        width: 100%; 
+        height: 100%; 
+        flex-direction: column; 
+        justify-content: center; 
+        align-items: center; 
+        display: inline-flex
+    }
+    
+    #titulo-pilares{
+        width: 288px; 
+        margin-top: 30px;
+        text-align: center; 
+        color: #00BBE4; 
+        font-size: 36px; 
+        font-family: Noto Serif Tamil; 
+        font-weight: 600; 
+        letter-spacing: 3.60px; 
+    }
+    
+    .img-pilar{
+        width: 140px; 
+        height: 140px
+    }
+    
+    .pilar-desc{
+        width: 288px; 
+        height: 241px; 
+        text-align: center; 
+        color: #00BBE4; 
+        font-size: 28px; 
+        font-family: Noto Serif Tamil; 
+        font-weight: 500; 
+        word-wrap: break-word
+    }
+    
+    #paquetes{
+        width: 1150px; 
+        margin-inline: auto;
+    }
+    
+    #titulo-servicios{
+        width: 1150px; 
+        margin-top: 30px;
+        text-align: center; 
+        color: white; 
+        font-size: 36px; 
+        font-family: Noto Serif Tamil; 
+        font-weight: 800; 
+        word-wrap: break-word
+    }
+    
+    .paquete{
+        flex-direction: column; 
+        justify-content: center; 
+        align-items: center; 
+        display: inline-flex
+    }
+    
+    .icono-paquete{
+        margin-top: 30px;
+        margin-bottom: 40px;
+        margin-left: 140px;
+        align-items: center;
+        width: 85px; 
+        height: 77px
+    }
+    
+    footer{
+        margin-top: 15px;
+        position: relative;
+        margin-inline: auto;
+        bottom: 0;
+        width: 1150px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .direccion-footer{
+        width: 384px;   
+        text-align: center; 
+        color: white; 
+        font-size: 20px; 
+        font-family: Noto Serif Tamil Slanted; 
+        font-weight: 800; 
+        word-wrap: break-word
+    }
+}
